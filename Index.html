@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Daraz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/custome-style.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/jquery-3.6.0.min.js"></script>
+ 
+</head>
+
+<body>
+	
+	<header class="header">
+		<div class="container relative">
+			<div class="header-top d-flex justify-content-between align-items-center">
+				<ul class="list-inline m-0">
+					<li><a href="#">Become a Seller</a></li>
+					<li><a href="#">Daraz Donates</a></li>
+					<li><a href="#">Help & Support</a></li>
+				</ul>
+				<ul class="list-inline m-0">
+					<li data-bs-toggle="modal" data-bs-target="#exampleModal"  class="list-items" id="hoverButton"><a  href="#">
+                        <img src="https://img.alicdn.com/imgextra/i1/O1CN01Ie2YnK1JmZ1mL3fY5_!!6000000001071-2-tps-60-60.png" alt="">
+                        Save More on App</a></li>
+                
+				</ul>
+			</div>
+
+			<div class="header-bottom">
+				<div class="row align-items-center">
+					<div class="col-lg-3 col-md-2 col-sm-1">
+						<!-- Logo  -->
+						<div class="logoWrap d-inline-block">
+							<a href="index.html">
+								<img src="https://icms-image.slatic.net/images/ims-web/3ac46ea5-a376-41cc-981f-21fa690468c0.png" alt="logo">
+							</a>
+						</div>
+                        <!-- Sticky Mobile Menu Togglar -->
+						<!-- <div class="relative d-inline-block">
+							
+							<div class="sticky-active-menu">
+								<button class="menu-bars" onclick="activeMenu();">
+									<span></span>
+									<span></span>
+									<span></span>
+								</button>
+							</div>
+						</div> -->
+					</div>
+                    <div class="col-lg-6 col-md-5 col-sm-6">
+
+                        <div class="srcBox">
+                            <div class="input-group">
+                                <input type="text" class="txtSrc form-control" placeholder="Search...">
+                                <button type="button" class="btn btn-outline-secondary">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+
+
+
+						
+					</div>
+					<div class="col-lg-3 col-md-5 col-sm-5">
+						<!-- Meta Options  -->
+						<div class="headerMeta">
+                            <button class="headerMeta-btn btnSignUp text-light"><i class="bi bi-person"></i>Login</button>
+							<button class="headerMeta-btn btnSignUp text-light">Sign up</button>
+                            <button class="headerMeta-btn btnSignUp text-light"> <i class="bi bi-globe2"></i> En <i class="bi bi-chevron-down"></i></button>
+							<button id="btn-headerCart" class="headerMeta-btn btnCaret text-light"><i class="bi bi-cart"></i></button>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+	</header>
+	<!-- Hero Section  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                        <!-- Start Megamenu  -->
+        <div id="mainMenu">
+            <ul class="MegaMenuWrap">
+                <li class="menu-item" onclick="toggleSubmenu(this);">
+                    <a class="menu-link dropdown" href="#">
+                        <i class="bi bi-bag-heart">	</i>  Women's & Girls' Fashion <i class="bi bi-arrow-right-short shorts "></i></a>
+                    <!-- Start submenu  -->
+                    <div class="SubMenuWrap">
+                        <div class="submenu-containar">
+                            <!-- Submenu grid  -->
+                            <div class="SubMenu-Grid">
+                                
+                                <ul class="submenuList">
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">
+                                            <i class="bi bi-bag-heart">	</i> Sajid <i class="bi bi-arrow-right-short shorts "></i></a>
+                                        
+                                    </li>
+                                    <li class="menu-item" onclick="toggleSubmenu(this);">
+                                        <a class="menu-link dropdown" href="#">Traditional Wear</a>
+                                        
+                                            <!-- Start submenu  -->
+                                            <div class="SubMenuWraps ">
+                                                <div class="submenu-containar">
+                                                    <!-- Submenu grid  -->
+                                                    <div class="SubMenu-Grid">
+                                                        <h6 class="Submenu-title">Mimta</h6>
+                                                        <ul class="submenuList">
+                                                            <li class="menu-item">
+                                                                <a class="menu-link" href="#">menu list item</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a class="menu-link" href="#">menu list item</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a class="menu-link" href="#">menu list item</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!-- Submenu grid  -->
+                                                    <div class="SubMenu-Grid">
+                                                        <h6 class="Submenu-title">Submenu title</h6>
+                                                        <ul class="submenuList">
+                                                            <li class="menu-item">
+                                                                <a class="menu-link" href="#">menu list item</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a class="menu-link" href="#">menu list item</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a class="menu-link" href="#">menu list item</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                       
+                                        
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">Muslim Wear</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">Western Wear</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">Innerwear</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">Shoes</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">Bags</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">Watches</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item" onclick="toggleSubmenu(this);">
+                    <a class="menu-link dropdown" href="#"><i class="bi bi-shop-window"></i> menu list item</a>
+                    <!-- Start submenu  -->
+                    <div class="SubMenuWrap">
+                        <div class="submenu-containar">
+                            <!-- Submenu grid  -->
+                            <div class="SubMenu-Grid">
+                                <h6 class="Submenu-title">Submenu title</h6>
+                                <ul class="submenuList">
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">menu list item</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">menu list item</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">menu list item</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Submenu grid  -->
+                            <div class="SubMenu-Grid">
+                                <h6 class="Submenu-title">Submenu title</h6>
+                                <ul class="submenuList">
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">menu list item</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">menu list item</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a class="menu-link" href="#">menu list item</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item" onclick="toggleSubmenu(this);">
+                    <a class="menu-link" href="#"><i class="bi bi-shop-window"></i> menu list item</a>
+                </li>
+                <li class="menu-item" onclick="toggleSubmenu(this);">
+                    <a class="menu-link" href="#"><i class="bi bi-shop-window"></i> menu list item</a>
+                </li>
+            </ul>
+        </div>
+
+            </div>
+            <div class="col-lg-10">
+                <div class="hero-bannerwrap">
+                    <!-- Set up Carousel -->
+                    <div class="BannerCarousel owl-carousel">
+                        <!-- Carousel item  -->
+                        <div class="carouselItem">  
+                            <img src="images/banner1.jpg" alt="img">
+                        </div>
+                        <!-- Carousel item  -->
+                        <div class="carouselItem">  
+                            <img src="images/banner2.jpg" alt="img">
+                        </div>
+                        <!-- Carousel item  -->
+                        <div class="carouselItem">  
+                            <img src="images/banner3.jpg" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- Product Carousel Style One  -->
+	<section class="ProductGrid StyleOne pb-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="SectionTitle text-capitalize mb-4">Carousel style one</h1>
+					<div class="ProductCarousel_One owl-carousel">
+						<!-- single item  -->
+						<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+								<div class="product-mediaContent">
+									<div class="product-metaFlag">
+										<small>Wholesale</small>
+									</div>
+									<!-- product thumb  -->
+									<div class="product-thumb">
+										<img src="images/Products/iPhone-14-Pro-Max.jpg" alt="img">
+									</div>
+									<!-- Meta Option  -->
+									<ul class="product-metaOption m-0 p-0">
+										<li data-bs-toggle="tooltip" title="Add to Wishlist">
+											<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+										</li>
+										<li data-bs-toggle="tooltip" title="Add to Compare">
+											<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- Description  -->
+								<div class="product-content text-center">
+									<button class="btn-cart-common">Add to cart</button>
+									<a class="product-title" href="ProductDetails.html">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</a>
+									<h3 class="product-price">$99.000</h3>
+								</div>
+						</div>
+						<!-- single item  -->
+						<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+								<div class="product-mediaContent">
+									<div class="product-metaFlag">
+										<small>Wholesale</small>
+									</div>
+									<!-- product thumb  -->
+									<div class="product-thumb">
+										<img src="images/Products/bangladesh-flag-cotton-tshirt.jpg" alt="img">
+									</div>
+									<!-- Meta Option  -->
+									<ul class="product-metaOption m-0 p-0">
+										<li data-bs-toggle="tooltip" title="Add to Wishlist">
+											<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+										</li>
+										<li data-bs-toggle="tooltip" title="Add to Compare">
+											<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- Description  -->
+								<div class="product-content text-center">
+									<button class="btn-cart-common">Add to cart</button>
+									<a class="product-title" href="ProductDetails.html">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</a>
+									<h3 class="product-price">$99.000</h3>
+								</div>
+						</div>
+						<!-- single item  -->
+						<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+								<div class="product-mediaContent">
+									<div class="product-metaFlag">
+										<!-- <small>Wholesale</small> -->
+									</div>
+									<!-- product thumb  -->
+									<div class="product-thumb">
+										<img src="images/Products/keyboard.jpeg" alt="img">
+									</div>
+									<!-- Meta Option  -->
+									<ul class="product-metaOption m-0 p-0">
+										<li data-bs-toggle="tooltip" title="Add to Wishlist">
+											<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+										</li>
+										<li data-bs-toggle="tooltip" title="Add to Compare">
+											<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- Description  -->
+								<div class="product-content text-center">
+									<button class="btn-cart-common">Add to cart</button>
+									<a class="product-title" href="ProductDetails.html">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</a>
+									<h3 class="product-price">$99.000</h3>
+								</div>
+						</div>
+						<!-- single item  -->
+						<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+								<div class="product-mediaContent">
+									<div class="product-metaFlag">
+										<small>Wholesale</small>
+									</div>
+									<!-- product thumb  -->
+									<div class="product-thumb">
+										<img src="images/Products/iPhone-14-Pro-Max.jpg" alt="img">
+									</div>
+									<!-- Meta Option  -->
+									<ul class="product-metaOption m-0 p-0">
+										<li data-bs-toggle="tooltip" title="Add to Wishlist">
+											<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+										</li>
+										<li data-bs-toggle="tooltip" title="Add to Compare">
+											<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- Description  -->
+								<div class="product-content text-center">
+									<button class="btn-cart-common">Add to cart</button>
+									<a class="product-title" href="ProductDetails.html">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</a>
+									<h3 class="product-price">$99.000</h3>
+								</div>
+						</div>
+						<!-- single item  -->
+						<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+								<div class="product-mediaContent">
+									<div class="product-metaFlag">
+										<!-- <small>Wholesale</small> -->
+									</div>
+									<!-- product thumb  -->
+									<div class="product-thumb">
+										<img src="images/Products/bangladesh-flag-cotton-tshirt.jpg" alt="img">
+									</div>
+									<!-- Meta Option  -->
+									<ul class="product-metaOption m-0 p-0">
+										<li data-bs-toggle="tooltip" title="Add to Wishlist">
+											<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+										</li>
+										<li data-bs-toggle="tooltip" title="Add to Compare">
+											<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- Description  -->
+								<div class="product-content text-center">
+									<button class="btn-cart-common">Add to cart</button>
+									<a class="product-title" href="ProductDetails.html">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</a>
+									<h3 class="product-price">$99.000</h3>
+								</div>
+						</div>
+						<!-- single item  -->
+						<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+								<div class="product-mediaContent">
+									<div class="product-metaFlag">
+										<!-- <small>Wholesale</small> -->
+									</div>
+									<!-- product thumb  -->
+									<div class="product-thumb">
+										<img src="images/Products/keyboard.jpeg" alt="img">
+									</div>
+									<!-- Meta Option  -->
+									<ul class="product-metaOption m-0 p-0">
+										<li data-bs-toggle="tooltip" title="Add to Wishlist">
+											<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+										</li>
+										<li data-bs-toggle="tooltip" title="Add to Compare">
+											<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- Description  -->
+								<div class="product-content text-center">
+									<button class="btn-cart-common">Add to cart</button>
+									<a class="product-title" href="ProductDetails.html">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</a>
+									<h3 class="product-price">$99.000</h3>
+								</div>
+						</div>
+						<!-- single item  -->
+						<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+								<div class="product-mediaContent">
+									<div class="product-metaFlag">
+										<small>Wholesale</small>
+									</div>
+									<!-- product thumb  -->
+									<div class="product-thumb">
+										<img src="images/Products/iPhone-14-Pro-Max.jpg" alt="img">
+									</div>
+									<!-- Meta Option  -->
+									<ul class="product-metaOption m-0 p-0">
+										<li data-bs-toggle="tooltip" title="Add to Wishlist">
+											<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+										</li>
+										<li data-bs-toggle="tooltip" title="Add to Compare">
+											<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- Description  -->
+								<div class="product-content text-center">
+									<button class="btn-cart-common">Add to cart</button>
+									<a class="product-title" href="ProductDetails.html">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</a>
+									<h3 class="product-price">$99.000</h3>
+								</div>
+						</div>
+						<!-- single item  -->
+						<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+								<div class="product-mediaContent">
+									<div class="product-metaFlag">
+										<small>Wholesale</small>
+									</div>
+									<!-- product thumb  -->
+									<div class="product-thumb">
+										<img src="images/Products/bangladesh-flag-cotton-tshirt.jpg" alt="img">
+									</div>
+									<!-- Meta Option  -->
+									<ul class="product-metaOption m-0 p-0">
+										<li data-bs-toggle="tooltip" title="Add to Wishlist">
+											<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+										</li>
+										<li data-bs-toggle="tooltip" title="Add to Compare">
+											<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- Description  -->
+								<div class="product-content text-center">
+									<button class="btn-cart-common">Add to cart</button>
+									<a class="product-title" href="ProductDetails.html">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</a>
+									<h3 class="product-price">$99.000</h3>
+								</div>
+						</div>
+						<!-- single item  -->
+						<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+								<div class="product-mediaContent">
+									<div class="product-metaFlag">
+										<!-- <small>Wholesale</small> -->
+									</div>
+									<!-- product thumb  -->
+									<div class="product-thumb">
+										<img src="images/Products/keyboard.jpeg" alt="img">
+									</div>
+									<!-- Meta Option  -->
+									<ul class="product-metaOption m-0 p-0">
+										<li data-bs-toggle="tooltip" title="Add to Wishlist">
+											<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+										</li>
+										<li data-bs-toggle="tooltip" title="Add to Compare">
+											<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- Description  -->
+								<div class="product-content text-center">
+									<button class="btn-cart-common">Add to cart</button>
+									<a class="product-title" href="ProductDetails.html">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</a>
+									<h3 class="product-price">$99.000</h3>
+								</div>
+						</div>
+						<!-- single item  -->
+						<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+								<div class="product-mediaContent">
+									<div class="product-metaFlag">
+										<small>Wholesale</small>
+									</div>
+									<!-- product thumb  -->
+									<div class="product-thumb">
+										<img src="images/Products/iPhone-14-Pro-Max.jpg" alt="img">
+									</div>
+									<!-- Meta Option  -->
+									<ul class="product-metaOption m-0 p-0">
+										<li data-bs-toggle="tooltip" title="Add to Wishlist">
+											<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+										</li>
+										<li data-bs-toggle="tooltip" title="Add to Compare">
+											<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- Description  -->
+								<div class="product-content text-center">
+									<button class="btn-cart-common">Add to cart</button>
+									<a class="product-title" href="ProductDetails.html">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</a>
+									<h3 class="product-price">$99.000</h3>
+								</div>
+						</div>
+						<!-- single item  -->
+						<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+								<div class="product-mediaContent">
+									<div class="product-metaFlag">
+										<!-- <small>Wholesale</small> -->
+									</div>
+									<!-- product thumb  -->
+									<div class="product-thumb">
+										<img src="images/Products/bangladesh-flag-cotton-tshirt.jpg" alt="img">
+									</div>
+									<!-- Meta Option  -->
+									<ul class="product-metaOption m-0 p-0">
+										<li data-bs-toggle="tooltip" title="Add to Wishlist">
+											<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+										</li>
+										<li data-bs-toggle="tooltip" title="Add to Compare">
+											<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- Description  -->
+								<div class="product-content text-center">
+									<button class="btn-cart-common">Add to cart</button>
+									<a class="product-title" href="ProductDetails.html">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</a>
+									<h3 class="product-price">$99.000</h3>
+								</div>
+						</div>
+						<!-- single item  -->
+						<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+								<div class="product-mediaContent">
+									<div class="product-metaFlag">
+										<!-- <small>Wholesale</small> -->
+									</div>
+									<!-- product thumb  -->
+									<div class="product-thumb">
+										<img src="images/Products/keyboard.jpeg" alt="img">
+									</div>
+									<!-- Meta Option  -->
+									<ul class="product-metaOption m-0 p-0">
+										<li data-bs-toggle="tooltip" title="Add to Wishlist">
+											<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+										</li>
+										<li data-bs-toggle="tooltip" title="Add to Compare">
+											<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+										</li>
+									</ul>
+								</div>
+								<!-- Description  -->
+								<div class="product-content text-center">
+									<button class="btn-cart-common">Add to cart</button>
+									<a class="product-title" href="ProductDetails.html">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</a>
+									<h3 class="product-price">$99.000</h3>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Product Carousel Style One  -->
+	<section class="ProductGrid StyleTwo">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="SectionTitle text-capitalize mb-4">Carousel Style two</h1>
+					<div class="row">
+						<div class="col-sm-12 col-md-4 col-lg-3">
+							<div class="carouselTwoThumb">
+								<div class="commonThumb-wrap">
+									<img class="w-100" src="images/Products/thumb.jpg" alt="img">
+									<h3 class="thumbTitle">This is a title</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-8 col-lg-9">
+							<div class="ProductCarousel_Two owl-carousel">
+								<!-- single item  -->
+								<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+									<div class="product-mediaContent">
+										<div class="product-metaFlag">
+											<small>-20%</small>
+										</div>
+										<!-- product thumb  -->
+										<div class="product-thumb">
+											<img src="images/Products/iPhone-14-Pro-Max.jpg" alt="img">
+										</div>
+										<!-- Meta Option  -->
+										<ul class="product-metaOption m-0 p-0">
+											<li data-bs-toggle="tooltip" title="Add to Wishlist">
+												<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+											</li>
+											<li data-bs-toggle="tooltip" title="Add to Compare">
+												<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+											</li>
+										</ul>
+									</div>
+									<!-- Description  -->
+									<div class="product-content text-center">
+										<button class="btn-cart-common">Add to cart</button>
+										<p class="product-title">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</p>
+										<h3 class="product-price">$99.000</h3>
+									</div>
+								</div>
+								<!-- single item  -->
+								<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+									<div class="product-mediaContent">
+										<div class="product-metaFlag">
+											<small>-30%</small>
+										</div>
+										<!-- product thumb  -->
+										<div class="product-thumb">
+											<img src="images/Products/bangladesh-flag-cotton-tshirt.jpg" alt="img">
+										</div>
+										<!-- Meta Option  -->
+										<ul class="product-metaOption m-0 p-0">
+											<li data-bs-toggle="tooltip" title="Add to Wishlist">
+												<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+											</li>
+											<li data-bs-toggle="tooltip" title="Add to Compare">
+												<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+											</li>
+										</ul>
+									</div>
+									<!-- Description  -->
+									<div class="product-content text-center">
+										<button class="btn-cart-common">Add to cart</button>
+										<p class="product-title">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</p>
+										<h3 class="product-price">$99.000</h3>
+									</div>
+								</div>
+								<!-- single item  -->
+								<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+									<div class="product-mediaContent">
+										<div class="product-metaFlag">
+											<!-- <small>-20%</small> -->
+										</div>
+										<!-- product thumb  -->
+										<div class="product-thumb">
+											<img src="images/Products/keyboard.jpeg" alt="img">
+										</div>
+										<!-- Meta Option  -->
+										<ul class="product-metaOption m-0 p-0">
+											<li data-bs-toggle="tooltip" title="Add to Wishlist">
+												<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+											</li>
+											<li data-bs-toggle="tooltip" title="Add to Compare">
+												<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+											</li>
+										</ul>
+									</div>
+									<!-- Description  -->
+									<div class="product-content text-center">
+										<button class="btn-cart-common">Add to cart</button>
+										<p class="product-title">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</p>
+										<h3 class="product-price">$99.000</h3>
+									</div>
+								</div>
+								<!-- single item  -->
+								<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+									<div class="product-mediaContent">
+										<div class="product-metaFlag">
+											<small>-10%</small>
+										</div>
+										<!-- product thumb  -->
+										<div class="product-thumb">
+											<img src="images/Products/iPhone-14-Pro-Max.jpg" alt="img">
+										</div>
+										<!-- Meta Option  -->
+										<ul class="product-metaOption m-0 p-0">
+											<li data-bs-toggle="tooltip" title="Add to Wishlist">
+												<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+											</li>
+											<li data-bs-toggle="tooltip" title="Add to Compare">
+												<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+											</li>
+										</ul>
+									</div>
+									<!-- Description  -->
+									<div class="product-content text-center">
+										<button class="btn-cart-common">Add to cart</button>
+										<p class="product-title">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</p>
+										<h3 class="product-price">$99.000</h3>
+									</div>
+								</div>
+								<!-- single item  -->
+								<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+									<div class="product-mediaContent">
+										<div class="product-metaFlag">
+											<!-- <small>-20%</small> -->
+										</div>
+										<!-- product thumb  -->
+										<div class="product-thumb">
+											<img src="images/Products/bangladesh-flag-cotton-tshirt.jpg" alt="img">
+										</div>
+										<!-- Meta Option  -->
+										<ul class="product-metaOption m-0 p-0">
+											<li data-bs-toggle="tooltip" title="Add to Wishlist">
+												<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+											</li>
+											<li data-bs-toggle="tooltip" title="Add to Compare">
+												<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+											</li>
+										</ul>
+									</div>
+									<!-- Description  -->
+									<div class="product-content text-center">
+										<button class="btn-cart-common">Add to cart</button>
+										<p class="product-title">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</p>
+										<h3 class="product-price">$99.000</h3>
+									</div>
+								</div>
+								<!-- single item  -->
+								<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+									<div class="product-mediaContent">
+										<div class="product-metaFlag">
+											<!-- <small>-50%</small> -->
+										</div>
+										<!-- product thumb  -->
+										<div class="product-thumb">
+											<img src="images/Products/keyboard.jpeg" alt="img">
+										</div>
+										<!-- Meta Option  -->
+										<ul class="product-metaOption m-0 p-0">
+											<li data-bs-toggle="tooltip" title="Add to Wishlist">
+												<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+											</li>
+											<li data-bs-toggle="tooltip" title="Add to Compare">
+												<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+											</li>
+										</ul>
+									</div>
+									<!-- Description  -->
+									<div class="product-content text-center">
+										<button class="btn-cart-common">Add to cart</button>
+										<p class="product-title">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</p>
+										<h3 class="product-price">$99.000</h3>
+									</div>
+								</div>
+								<!-- single item  -->
+								<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+									<div class="product-mediaContent">
+										<div class="product-metaFlag">
+											<small>-20%</small>
+										</div>
+										<!-- product thumb  -->
+										<div class="product-thumb">
+											<img src="images/Products/iPhone-14-Pro-Max.jpg" alt="img">
+										</div>
+										<!-- Meta Option  -->
+										<ul class="product-metaOption m-0 p-0">
+											<li data-bs-toggle="tooltip" title="Add to Wishlist">
+												<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+											</li>
+											<li data-bs-toggle="tooltip" title="Add to Compare">
+												<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+											</li>
+										</ul>
+									</div>
+									<!-- Description  -->
+									<div class="product-content text-center">
+										<button class="btn-cart-common">Add to cart</button>
+										<p class="product-title">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</p>
+										<h3 class="product-price">$99.000</h3>
+									</div>
+								</div>
+								<!-- single item  -->
+								<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+									<div class="product-mediaContent">
+										<div class="product-metaFlag">
+											<small>-30%</small>
+										</div>
+										<!-- product thumb  -->
+										<div class="product-thumb">
+											<img src="images/Products/bangladesh-flag-cotton-tshirt.jpg" alt="img">
+										</div>
+										<!-- Meta Option  -->
+										<ul class="product-metaOption m-0 p-0">
+											<li data-bs-toggle="tooltip" title="Add to Wishlist">
+												<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+											</li>
+											<li data-bs-toggle="tooltip" title="Add to Compare">
+												<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+											</li>
+										</ul>
+									</div>
+									<!-- Description  -->
+									<div class="product-content text-center">
+										<button class="btn-cart-common">Add to cart</button>
+										<p class="product-title">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</p>
+										<h3 class="product-price">$99.000</h3>
+									</div>
+								</div>
+								<!-- single item  -->
+								<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+									<div class="product-mediaContent">
+										<div class="product-metaFlag">
+											<!-- <small>-20%</small> -->
+										</div>
+										<!-- product thumb  -->
+										<div class="product-thumb">
+											<img src="images/Products/keyboard.jpeg" alt="img">
+										</div>
+										<!-- Meta Option  -->
+										<ul class="product-metaOption m-0 p-0">
+											<li data-bs-toggle="tooltip" title="Add to Wishlist">
+												<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+											</li>
+											<li data-bs-toggle="tooltip" title="Add to Compare">
+												<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+											</li>
+										</ul>
+									</div>
+									<!-- Description  -->
+									<div class="product-content text-center">
+										<button class="btn-cart-common">Add to cart</button>
+										<p class="product-title">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</p>
+										<h3 class="product-price">$99.000</h3>
+									</div>
+								</div>
+								<!-- single item  -->
+								<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+									<div class="product-mediaContent">
+										<div class="product-metaFlag">
+											<small>-10%</small>
+										</div>
+										<!-- product thumb  -->
+										<div class="product-thumb">
+											<img src="images/Products/iPhone-14-Pro-Max.jpg" alt="img">
+										</div>
+										<!-- Meta Option  -->
+										<ul class="product-metaOption m-0 p-0">
+											<li data-bs-toggle="tooltip" title="Add to Wishlist">
+												<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+											</li>
+											<li data-bs-toggle="tooltip" title="Add to Compare">
+												<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+											</li>
+										</ul>
+									</div>
+									<!-- Description  -->
+									<div class="product-content text-center">
+										<button class="btn-cart-common">Add to cart</button>
+										<p class="product-title">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</p>
+										<h3 class="product-price">$99.000</h3>
+									</div>
+								</div>
+								<!-- single item  -->
+								<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+									<div class="product-mediaContent">
+										<div class="product-metaFlag">
+											<!-- <small>-20%</small> -->
+										</div>
+										<!-- product thumb  -->
+										<div class="product-thumb">
+											<img src="images/Products/bangladesh-flag-cotton-tshirt.jpg" alt="img">
+										</div>
+										<!-- Meta Option  -->
+										<ul class="product-metaOption m-0 p-0">
+											<li data-bs-toggle="tooltip" title="Add to Wishlist">
+												<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+											</li>
+											<li data-bs-toggle="tooltip" title="Add to Compare">
+												<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+											</li>
+										</ul>
+									</div>
+									<!-- Description  -->
+									<div class="product-content text-center">
+										<button class="btn-cart-common">Add to cart</button>
+										<p class="product-title">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</p>
+										<h3 class="product-price">$99.000</h3>
+									</div>
+								</div>
+								<!-- single item  -->
+								<div class="product-Item" data-bs-toggle="tooltip" title="Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description">  
+									<div class="product-mediaContent">
+										<div class="product-metaFlag">
+											<!-- <small>-50%</small> -->
+										</div>
+										<!-- product thumb  -->
+										<div class="product-thumb">
+											<img src="images/Products/keyboard.jpeg" alt="img">
+										</div>
+										<!-- Meta Option  -->
+										<ul class="product-metaOption m-0 p-0">
+											<li data-bs-toggle="tooltip" title="Add to Wishlist">
+												<button class="btn-metaOption btnWishlist"><i class="bi bi-heart-fill"></i></button>
+											</li>
+											<li data-bs-toggle="tooltip" title="Add to Compare">
+												<button class="btn-metaOption btnCompare"><i class="bi bi-arrow-down-up"></i></button>
+											</li>
+										</ul>
+									</div>
+									<!-- Description  -->
+									<div class="product-content text-center">
+										<button class="btn-cart-common">Add to cart</button>
+										<p class="product-title">Apple iPhone 14 Pro, 128GB, 512GB, Dept sensor and more description</p>
+										<h3 class="product-price">$99.000</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Footer  -->
+	<footer class="footer bg-offwhite">
+		<div class="container">
+			<div class="footer-top mb-5">
+				<div class="row">
+					<div class="col-sm-12 col-md-6">
+						<p class="about-Subscription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, odit.</p>
+						<p class="about-Subscription fw-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, odit. Lorem ipsum dolor sit amet.</p>
+						<div class="widget-subscription-Box">
+							<div class="row align-items-center g-2">
+								<div class="col-8">
+									<input type="text" class="form-control txt-mailbox">
+								</div>
+								<div class="col-4">
+									<button class="btn-subscribe">Subscribe</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-2"></div>
+					<div class="col-sm-12 col-md-4">
+						<!-- Single widget  -->
+						<div class="footer-widget">
+							<h4 class="widget-title">Quick Links</h4>
+							<ul class="widget-menu social-menu list-inline p-0">
+								<li class="widget-menu-item">
+									<a class="widget-menu-list facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+								</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list twitter" href="#"><i class="fab fa-twitter"></i></a>
+								</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list youtube" href="#"><i class="fab fa-youtube"></i></a>
+								</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+								</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list instagram" href="#"><i class="fab fa-instagram"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="footer-bottom pt-4">
+				<div class="row">
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+						<!-- Single widget  -->
+						<div class="footer-widget">
+							<h4 class="widget-title">Quick Links</h4>
+							<ul class="widget-menu p-0">
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#">Quick links item</a>
+								</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#">Quick links item</a>
+								</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#">Quick links item</a>
+								</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#">Quick links item</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+						<!-- Single widget  -->
+						<div class="footer-widget">
+							<h4 class="widget-title">Contacts</h4>
+							<ul class="widget-menu p-0">
+								<li class="widget-menu-item text-muted"> <i class="bi bi-geo-alt-fill"></i> Address</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#!">Demo address</a>
+								</li>
+							</ul>
+							<ul class="widget-menu p-0">
+								<li class="widget-menu-item text-muted"><i class="bi bi-telephone-fill"></i> Phone</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#!">01234567890</a>
+								</li>
+							</ul>
+							<ul class="widget-menu p-0">
+								<li class="widget-menu-item text-muted"><i class="bi bi-envelope-fill"></i> Email</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="mailto:example@gmail.com">example@gmail.com</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+						<!-- Single widget  -->
+						<div class="footer-widget">
+							<h4 class="widget-title">Widget title</h4>
+							<ul class="widget-menu p-0">
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#">Quick links item</a>
+								</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#">Quick links item</a>
+								</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#">Quick links item</a>
+								</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#">Quick links item</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+						<!-- Single widget  -->
+						<div class="footer-widget">
+							<h4 class="widget-title">Seller Zone</h4>
+							<ul class="widget-menu p-0">
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#!">Become a seller</a>
+								</li>
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#!">Download Seller App</a>
+								</li>
+							</ul>
+						</div>
+						<!-- Single widget  -->
+						<div class="footer-widget">
+							<h4 class="widget-title">Delivery Boy</h4>
+							<ul class="widget-menu p-0">
+								<li class="widget-menu-item">
+									<a class="widget-menu-list" href="#!">Downlad Delivery app</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Cart Offcanvas  -->
+	<div class="cart-offcanvas" id="offcanvas">
+		<div class="offcanvas-header">
+			<h5 id="offcanvasRightLabel" class="capitalize text-white m-0">Your Cart</h5>
+			<button type="button" class="btn-closeOffcanvas btn btn-danger"><i class="fas fa-times"></i> </button>
+		</div>
+		<div class="offcanvas-body">
+			<div class="content">
+				<!-- Empty message  -->
+                <div class="empty-content d-none">
+					<p class="text-center">Your shopping cart is empty!</p>
+				</div>
+				<!-- Cart item list  -->
+				<div class="offcanvas-Cart-item">
+					<div class="image"><img src="images/cartitem1.png" alt="img"></div>
+					<div class="info">
+						<div class="name">MSI G2412 23.8" FHD 170Hz IPS 1ms FreeSync Premium Gaming Monitor</div>
+						<span class="fw-5">0.00</span>
+						<span class="fw-5"><i class="bi bi-x"></i></span>
+						<span class="fw-5">1</span>
+						<span class="eq">=</span>
+						<span class="fw-5">0.00</span>
+					</div>
+					<button class="btnRemove-cartItem" title="Remove"><i class="bi bi-trash-fill"></i></button>
+				</div>
+				<!-- Cart item list  -->
+				<div class="offcanvas-Cart-item">
+					<div class="image"><img src="images/cartitem1.png" alt="img"></div>
+					<div class="info">
+						<div class="name">MSI G2412 23.8" FHD 170Hz IPS 1ms FreeSync Premium Gaming Monitor</div>
+						<span class="fw-5">0.00</span>
+						<span class="fw-5"><i class="bi bi-x"></i></span>
+						<span class="fw-5">1</span>
+						<span class="eq">=</span>
+						<span class="fw-5">0.00</span>
+					</div>
+					<button class="btnRemove-cartItem" title="Remove"><i class="bi bi-trash-fill"></i></button>
+				</div>
+            </div>
+			<div class="offCanvasBottom">
+				<div class="promotion-code">
+					<div class="input-group mb-4">
+						<input type="text" placeholder="Promo Code" id="input-cart-coupon">
+						<span class="input-group-btn"><button class="button-coupon btn-common d-block text-center capitalize" type="submit">Apply</button></span>
+					</div>
+				</div>
+                <div class="d-flex justify-content-between align-items-center px-2">
+            		<h6 class="m-0">Sub-Total</h6>
+            		<div class="amount fw-bold">0.00</div>
+				</div>
+				<hr>
+				<div class="d-flex justify-content-between align-items-center px-2 mb-4">
+					<h6 class="m-0">Total</h6>
+					<div class="amount fw-bold">0.00</div>
+				</div>
+				<button class="btnCheckout btn-common d-block text-center capitalize">Checkout</button>
+            </div>
+		</div>
+	</div>
+	<!-- TO-TOP BUTTON -->
+	<!--===================================================-->
+	<button id="to-top">
+		<i class="fas fa-angle-up"></i>
+	</button>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/imagezoom.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/fontawesome-all.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+	
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++  Modal For ads -->
+	<div class="modal fade" id="adsModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true" role="dialog">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header py-2">
+					<h6 class="modal-title text-capitalize">Ads</h6>
+					<button type="button" onclick="closeAds();" class="close-modal btn-danger" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+				</div>
+				<div class="modal-body p-0">
+					<div class="card">
+						<div class="card-body">
+							Ads Will show here.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Modals  -->
+	<script>
+		$(document).ready(function() {
+			$("#adsModal").show('modal');
+			$("#adsModal").addClass('show');
+		});
+
+		function closeAds(){
+			$("#adsModal").hide('modal');
+			$("#adsModal").removeClass('show');
+			var modal = document.getElementById("adsModal");
+    		modal.style.display = "none";
+		}
+	</script>
+
+</body>
+</html>
